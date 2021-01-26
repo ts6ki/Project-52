@@ -1,0 +1,87 @@
+@font-face { font-family: OakLawn; src: url('OakLawn.ttf'); } 
+@font-face { font-family: MostlyMono; src: url('MostlyMono.ttf'); } 
+
+
+a:link{
+    color: #F05E24;
+}
+
+a:visited{
+    color: #f0a924;
+}
+
+.headingLine {
+    margin-top: -18px;
+}
+
+.header{
+    background-color:black;
+    text-align:center
+
+    /*display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;*/
+}
+
+.subheader{
+    position: absolute;
+    text-align:center
+}
+
+.subheader{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+.header{
+    font-family: "OakLawn";
+}
+
+.menu{
+    font-family: "MostlyMono";
+}
+
+.subheader{
+    font-family: "OakLawn";
+}
+
+.designs{
+    font-family: "MostlyMono";
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.item {
+    border-radius: 20px;
+    background-color: #D7D7D7;
+    width: 500px;
+    height: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+body{
+    background-color: #B3A796;
+    /*color: white;*/
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    opacity: 1;
+}
+
+.item:hover img{
+    transform: scale(1.5);
+}
+
